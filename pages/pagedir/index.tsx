@@ -1,3 +1,4 @@
+import "../../app/globals.css";
 import { SwitchTheme } from "@/components/SwitchTheme";
 
 export default function Home() {
