@@ -4,7 +4,7 @@ export default function Counter() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log("First useEffect runs when count update");
+    console.log("First useEffect runs when count updated");
   }, [count]);
 
   useEffect(() => {
@@ -21,8 +21,8 @@ export default function Counter() {
 
   return (
     <>
-      <h1>You have clicked the button {count} times</h1>
-      <button onClick={handleClick}>Click me!</button>
+      <h1>You have clicked the button {count} tim</h1>
+      <button onClick={handleClick}>Click me!!</button>
       <button onClick={handleReset}>Reset</button>
     </>
   );
